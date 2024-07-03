@@ -1,0 +1,458 @@
+
+
+*{
+font-family: "Inter", sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#slider{
+overflow: hidden;
+height: 100vh;
+}
+ 
+#slider figure{
+position: relative;
+width: 500%;
+overflow: hidden;
+margin: 0;
+left: 0;
+animation: 5s slider infinite linear;
+animation-iteration-count: infinite;
+}
+
+#slider figure img{
+float: left;
+width: 20%;
+}
+
+@keyframes slider {
+    0%{
+    left: 0;
+    }
+    20%{
+        left: 0;
+        }
+    25%{
+            left: -100%;
+            }
+        
+            45%{
+                left: -100%;
+                }
+            
+                50%{
+                    left: -200%;
+                    }
+                    70%{
+                        left: -200%;
+                        }
+                        75%{
+                            left: -300%;
+                    }
+                    95%{
+                        left: -300%;
+                        }
+
+
+                        100%{
+                            left: -400%;
+                            }
+                        
+                    
+                        
+}
+
+.manzil2{
+padding: 3px 0;
+}
+
+.mk{
+padding-right: 30px;
+}
+
+.container{
+margin: 0 auto;
+padding: 0 100px;
+max-width: 1440px;
+}
+
+.header-parent{
+    padding: 10px 0;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+.header-parent p{
+    display: flex;
+color: grey;
+font-size: 14px;
+align-items: center;
+padding-bottom: 10px;
+}
+
+.header-left{
+display: flex;
+padding-right: 10px;
+}
+.header-left img{
+padding-right: 10px;
+
+}
+
+
+.header-right{
+display: flex;
+}
+
+.header-right img{
+padding-right: 10px;
+}
+
+.parent-t{
+display: flex;
+gap: 40px;
+}
+
+.manzil{
+display: flex;
+align-items: start;
+padding-left: 20px;
+}
+
+.header-parent2{
+padding: 15px 0;
+display: flex;
+justify-content: space-between;
+
+}
+
+.header-shadow {
+    -webkit-box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.03);
+    -moz-box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.03);
+    box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.03);
+}
+
+.header-center2{
+display: flex;
+align-items: center;
+gap: 30px;
+}
+
+.header-center2 a{
+color: black;
+font-size: 15px;
+text-decoration: none;
+
+}
+
+button{
+    background-color: #4762FF;
+   font-size: 14px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+opacity: 0.7;
+}
+
+.truck-parent{
+    margin-top: 100px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.truck-right{
+    
+ margin-left: 116px;   
+display: flex;
+justify-content: end;
+}
+
+.truck-left h1{
+color: black;
+font-size: 66px;
+padding: 20px 0 ;
+}
+
+.truck-left p{
+    font-size: 14px;
+    color: gray;
+    padding-bottom:  25px;
+}
+
+.imgg{
+    width:100%;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.gmm{
+padding-right: 200px; 
+padding-top: 90px;
+width:160%;
+}
+
+.nnnn{
+    color: rgba(248, 242, 242, 0.137);
+    box-shadow: 1px 1px 1px rgba(231, 225, 225, 0.11)   ;
+}
+
+.vvvv{
+color: rgba(44, 42, 42, 0.897);
+background-color: black;
+}
+
+.ooo{
+
+margin-right: 10px;
+align-items: center;
+
+}
+
+.hr3{
+    width: 100%;
+    height: 1px;
+background-color: rgba(102, 98, 98, 0.459);
+}
+
+.hr2{
+    width: 1px;
+    height: 61px;
+background-color: rgba(231, 223, 223, 0.61);
+}
+
+.hr1{
+    width: 100%;
+    height: 1px;
+background-color: rgba(231, 223, 223, 0.61);
+}
+.card-parent{
+    margin-top: 40px;
+display: flex;
+justify-content: center;
+gap: 40px;
+}
+
+.hh{
+color: black;
+text-align: center;
+font-size: 40px;
+padding: 30px 0;
+}
+
+.pp{
+font-size: 16px;
+color: grey;
+text-align: center;
+}
+
+.card{
+background-color:#F4F6FA;
+border: none;
+border-radius: 5px; 
+display: flex;   
+border: none;
+transition: all 0.4s ease-in-out;
+width: 470px;
+}
+.card-left h3{
+color:black ;
+font-size: 20px;
+padding: 20px 20px;
+}
+
+.card-left p{
+padding-left: 20px;
+font-size: 14px;
+color: grey;
+}
+
+.card:hover{
+  
+transform: translateY(-10px);
+}
+
+.student-parent{
+    margin-bottom: 100px;
+    margin-top: 100px;
+display: flex;
+justify-content: space-between;
+}
+
+.student-left h2{
+color: black;
+font-size: 44px;
+padding: 25px 0;
+}
+
+.student-left p{
+line-height: 30px;
+font-size: 15px;
+color: grey;
+}
+
+
+.student-right{
+display: flex;
+justify-content: end    ;
+}
+
+.frame{
+    margin-top: 100px;
+background-color: #F4F4F4;
+height: 455px;
+border: 2px solid  #4762FF ;
+}
+
+.frame-parent{
+ margin-top: 100px; 
+display: flex;
+justify-content: space-between;
+}
+
+.frame-left h2{
+    color: black;
+    font-size: 44px;
+   
+
+padding-left: 20px;
+
+}
+
+.frame-left{
+padding-bottom: 170px;
+}
+
+.frame-left p{
+    line-height: 30px;
+    font-size: 15px;
+    color: grey;
+  padding-left: 20px;
+  padding-top: 30px;
+ 
+
+    }   
+
+iframe{
+width: 720px;
+bottom: 84px;
+right:  -100px;
+position: absolute;
+
+}
+
+.frame-right{
+position: relative;
+}
+
+.inpt{
+background-image: url( "./truck-driver-opening-reservoir-tank-refuel-truck-holding-thumbs-up\ 1.png");
+background-size: cover;
+background-repeat: no-repeat;
+padding: 50px   ;
+}
+.inpt-parent{
+display: flex;
+justify-content: end;
+}
+
+.box{
+background-color: white;
+border: none;
+border-radius: 10px;
+width: 611px;
+height: 548px;
+
+}
+
+.hh22{
+font-size: 50px;
+padding: 30px 0;
+margin-left: 70px;
+}
+.p5{
+margin-left: 70px;
+font-size: 18px;
+}
+
+input{
+width: 469px;
+height: 60px;
+border: none;
+border-radius: 8px;
+background-color: #c7c9d1d0;
+margin-top: 35px;}
+
+::placeholder{
+    padding-left: 15px;
+}
+
+.btn{
+    background-color: #4762FF;
+    font-size: 14px;
+     padding: 20px 30px;
+     width: 469px;
+     border: none;
+     border-radius: 10px;
+     color: white;
+     margin-top: 30px;
+     cursor: pointer;
+}
+
+
+.btn:hover{
+opacity: 0.7;
+}
+
+
+
+footer{
+background-color: black;
+}
+
+.footer-parent{
+padding-top: 40px;
+display: flex;
+justify-content: center;
+gap:200px ;
+}
+
+.footer-right{
+display: flex;
+gap: 100px;
+margin-bottom: 60px;
+}
+
+.footer-right h4{
+color: white;
+font-size: 20px;
+}
+
+.footer-right p{
+color: white;
+font-size: 13px;
+font-weight: 100;
+line-height: 30px;
+margin-top: 9px    ;
+}
+
+.ft-parent{
+display: flex;
+justify-content: start;
+padding: 20px 0;
+}
+
+.ft-parent p{
+color: white;
+font-weight: 200;
+font-size: 10px;
+}
